@@ -31,7 +31,7 @@ module.exports = {
           csv += data[i][j] + ',';
         }
       }
-      csv += '<br>';
+      // csv += '<br>';
     }
     return csv
   }
