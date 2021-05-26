@@ -16,9 +16,9 @@
   </header>
 
   <div class="content">
-    <form action="/form_submit" method="post">
+    <form action="/form_submit" method="post" enctype="multipart/form-data">
       <label for="post_json">JSON Text:</label><br>
-      <input type="text" id="post_json" name="post_json"><br>
+      <input type="file" id="post_json" name="post_json"><br>
       <input type="submit" value="Submit">
 
     </form>
