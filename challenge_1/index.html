@@ -1,2 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Toe</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="header">
+    <div class="menu"></div>
+  </div>
+  <div id="board">
+    <div id="row1">
+      <div id="row1-col1" class="square"></div>
+      <div id="row1-col2" class="square"></div>
+      <div id="row1-col3" class="square"></div>
+    </div>
+    <div id="row2">
+      <div id="row2-col1" class="square"></div>
+      <div id="row2-col2" class="square"></div>
+      <div id="row2-col3" class="square"></div>
+    </div>
+    <div id="row3">
+      <div id="row3-col1" class="square"></div>
+      <div id="row3-col2" class="square"></div>
+      <div id="row3-col3" class="square"></div>
+    </div>
+
+  </div>
+
+  <div id="message"><button type="button" onclick="resetGame()">Reset Game</button>
+  </div>
+  <div id="xCounter"><span id="player1"></span> <span id="xWins"></span> </div>
+  <div id="oCounter"><span id="player2"></span> <span id="oWins"></span></div>
 
 
+  <script src="app.js"></script>
+
+</body>
+
+</html>

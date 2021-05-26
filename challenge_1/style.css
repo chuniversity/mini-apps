@@ -1,0 +1,53 @@
+body {
+  background-color: #e3e2e1;
+}
+
+#header{
+  height: 50px
+}
+
+#board {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 500px;
+  width: 500px;
+}
+#row1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#row2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#row3{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+#row1-col1 {background-color: #000}
+#row1-col2 {background-color: #fff}
+#row1-col3 {background-color: #000}
+#row2-col1 {background-color: #fff}
+#row2-col2 {background-color: #000}
+#row2-col3 {background-color: #fff}
+#row3-col1 {background-color: #000}
+#row3-col2 {background-color: #fff}
+#row3-col3 {background-color: #000}
+
+.class-x {
+  background-image: url("./lib/x.png");
+  background-size: cover;
+}
+.class-o {
+  background-image: url("./lib/o.png");
+  background-size: cover;
+}
+
+#message {
+  height: 150px;
+  width: 500px;
+  font-size: 4em;
+  color: red;
+}
