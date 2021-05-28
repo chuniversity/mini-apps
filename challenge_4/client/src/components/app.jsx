@@ -66,12 +66,6 @@ class App extends React.Component {
       }
 
       this.state.player === 1 ? this.state.player = 2 : this.state.player = 1;
-
-      // if(this.state.player === 1) {
-      //   this.state.player = 2
-      // } else {
-      //   this.state.player = 1
-      // }
     }
   }
 
