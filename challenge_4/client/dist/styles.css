@@ -1,0 +1,50 @@
+body {
+  background-color: #dbdbdb;
+}
+
+.theboard {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  }
+
+.sq {
+  background-image: url("sq.png");
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+}
+
+
+
+.dropcolumn {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+}
+
+.dsq {
+  width: 100px;
+  height: 100px;
+  /* background-image: url("play1p.png");
+  background-size: contain; */
+}
+
+.dsq1 {
+  background-image: url("play1p.png");
+  background-size: contain;
+}
+.dsq2 {
+  background-image: url("play2p.png");
+  background-size: contain;
+}
+
+.play1 {
+  background-color: red;
+}
+.play2 {
+  background-color: yellow;
+}
+
+
+
